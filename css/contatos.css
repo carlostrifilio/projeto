@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Sriracha', cursive;
+}
+
+#fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../bg-imagem/maturados2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.formulario{
+    align-items: center;
+    margin:  auto;
+    padding: 20px;
+    width: 80%;
+    font-size: 15px;
+    color: black;
+}
+
+.btn1{
+    background-color: rgba(141, 4, 4, 0.726);
+    font-size: 15px;
+    padding-bottom: 15px;
+    width: 100px;
+    height: 25px;
+    border: 0px;
+    cursor: pointer;
+    }
+
+input:hover, button:hover, select:hover, textarea:hover{
+    border: 2px solid black;
+}
+
+input:focus, textarea:focus{
+        background-color: rgba(217, 217, 223, 0.616);
+}

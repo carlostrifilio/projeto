@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* body{
+    background-image: url(./maturados2.jpg);
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.2;
+    z-index: -2;
+} */
+/* #fundo{
+    background-color: rgba (255,255,255,0.5);
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
+
+
+#fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../bg-imagem/maturados2.jpg);
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    z-index: -2;

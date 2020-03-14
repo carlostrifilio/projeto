@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Sriracha', cursive;
+}
+
+.carousel-item {
+    max-height: 50vh;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    flex: 1 0 100%;
+}
+
+#exemplobootstrap {
+    margin-top: 30px;
+}
+
+#exemplobootstrap div section {
+    height: 30vh;
+}
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+}
+/* .btn1{
+    background-color: rgb(255, 251, 0);
+    padding-bottom: 5px;
+    width: 100px;
+    height: 25px;
+    border: 0px;
+    cursor: pointer;
+}
+input:hover, button:hover, select:hover, textarea:hover{
+    border: 2px solid black;
+}
+input:focus, textarea:focus{
+    background-color: rgba(217, 217, 223, 0.616);
+} */
+
+.rodape{
+    border: black solid 2px;
+    height: 80px; 
+    padding: 30px; 
+    background-color: royalblue ; 
+    font-size: 25px; 
+    color:black;
+    text-align: center;
+}
+
+/* .fundo{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    opacity: 0.3;
+} */
+
+
+
+
+
